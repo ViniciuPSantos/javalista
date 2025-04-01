@@ -49,13 +49,14 @@ public class calculadora {
                 area2=(base*altura/2);
                 JOptionPane.showMessageDialog(null, "A area do triangulo é "+area2);
             }
-            else if (areas == 3);
+            else if (areas == 3){
                 lado=Double.parseDouble(JOptionPane.showInputDialog("Insira o valor do lado"));
                 area3=(lado*lado);
                 JOptionPane.showMessageDialog(null, "A area do quadrado é "+area3);
-        }
+            }}
+                
         else {
-            JOptionPane.showMessageDialog(null, "Digite um valor valido");
+            JOptionPane.showMessageDialog(null, "Digite um valor ");
         }
     }
     
