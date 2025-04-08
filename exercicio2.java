@@ -7,10 +7,10 @@ public class exercicio2 {
         desconto = ((10.0/100)*valor);
         valor2 = (valor-desconto);
         if (valor <= 199.99){
-            JOptionPane.showMessageDialog(null, "Você não receberá desconto! o valor permanecerá "+valor);
+            JOptionPane.showMessageDialog(null, "Você não receberá desconto! \n O valor permanecerá "+valor);
         }
         else if (valor >= 200){
-            JOptionPane.showMessageDialog(null, "Você recebeu um desconto de R$"+desconto+ ". O valor final da compra é R$"+valor2);
+            JOptionPane.showMessageDialog(null, "Você recebeu um desconto de R$"+desconto+ "\n O valor final da compra é R$"+valor2);
         }
     }
 }
