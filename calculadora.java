@@ -56,7 +56,7 @@ public class calculadora {
             }}
                 
         else {
-            JOptionPane.showMessageDialog(null, "Digite um valor ");
+            JOptionPane.showMessageDialog(null, "Digite um valor válido! ");
         }
     }
     
